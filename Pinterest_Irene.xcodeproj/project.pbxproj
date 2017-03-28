@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B585F91D1E89FFDC00ADFB06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585F91C1E89FFDC00ADFB06 /* AppDelegate.swift */; };
+		B585F91F1E89FFDC00ADFB06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585F91E1E89FFDC00ADFB06 /* ViewController.swift */; };
+		B585F9221E89FFDC00ADFB06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B585F9201E89FFDC00ADFB06 /* Main.storyboard */; };
+		B585F9241E89FFDC00ADFB06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B585F9231E89FFDC00ADFB06 /* Assets.xcassets */; };
+		B585F9271E89FFDC00ADFB06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B585F9251E89FFDC00ADFB06 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B585F9191E89FFDC00ADFB06 /* Pinterest_Irene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinterest_Irene.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B585F91C1E89FFDC00ADFB06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B585F91E1E89FFDC00ADFB06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B585F9211E89FFDC00ADFB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B585F9231E89FFDC00ADFB06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B585F9261E89FFDC00ADFB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B585F9281E89FFDC00ADFB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B585F9161E89FFDC00ADFB06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B585F9101E89FFDC00ADFB06 = {
+			isa = PBXGroup;
+			children = (
+				B585F91B1E89FFDC00ADFB06 /* Pinterest_Irene */,
+				B585F91A1E89FFDC00ADFB06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B585F91A1E89FFDC00ADFB06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B585F9191E89FFDC00ADFB06 /* Pinterest_Irene.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B585F91B1E89FFDC00ADFB06 /* Pinterest_Irene */ = {
+			isa = PBXGroup;
+			children = (
+				B585F91C1E89FFDC00ADFB06 /* AppDelegate.swift */,
+				B585F91E1E89FFDC00ADFB06 /* ViewController.swift */,
+				B585F9201E89FFDC00ADFB06 /* Main.storyboard */,
+				B585F9231E89FFDC00ADFB06 /* Assets.xcassets */,
+				B585F9251E89FFDC00ADFB06 /* LaunchScreen.storyboard */,
+				B585F9281E89FFDC00ADFB06 /* Info.plist */,
+			);
+			path = Pinterest_Irene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B585F9181E89FFDC00ADFB06 /* Pinterest_Irene */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B585F92B1E89FFDC00ADFB06 /* Build configuration list for PBXNativeTarget "Pinterest_Irene" */;
+			buildPhases = (
+				B585F9151E89FFDC00ADFB06 /* Sources */,
+				B585F9161E89FFDC00ADFB06 /* Frameworks */,
+				B585F9171E89FFDC00ADFB06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pinterest_Irene;
+			productName = Pinterest_Irene;
+			productReference = B585F9191E89FFDC00ADFB06 /* Pinterest_Irene.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B585F9111E89FFDC00ADFB06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Irene Onyeneho";
+				TargetAttributes = {
+					B585F9181E89FFDC00ADFB06 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 77SSA9U7A5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B585F9141E89FFDC00ADFB06 /* Build configuration list for PBXProject "Pinterest_Irene" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B585F9101E89FFDC00ADFB06;
+			productRefGroup = B585F91A1E89FFDC00ADFB06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B585F9181E89FFDC00ADFB06 /* Pinterest_Irene */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B585F9171E89FFDC00ADFB06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B585F9271E89FFDC00ADFB06 /* LaunchScreen.storyboard in Resources */,
+				B585F9241E89FFDC00ADFB06 /* Assets.xcassets in Resources */,
+				B585F9221E89FFDC00ADFB06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B585F9151E89FFDC00ADFB06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B585F91F1E89FFDC00ADFB06 /* ViewController.swift in Sources */,
+				B585F91D1E89FFDC00ADFB06 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B585F9201E89FFDC00ADFB06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B585F9211E89FFDC00ADFB06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B585F9251E89FFDC00ADFB06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B585F9261E89FFDC00ADFB06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B585F9291E89FFDC00ADFB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B585F92A1E89FFDC00ADFB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B585F92C1E89FFDC00ADFB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 77SSA9U7A5;
+				INFOPLIST_FILE = Pinterest_Irene/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ireneo.Pinterest-Irene";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B585F92D1E89FFDC00ADFB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 77SSA9U7A5;
+				INFOPLIST_FILE = Pinterest_Irene/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ireneo.Pinterest-Irene";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B585F9141E89FFDC00ADFB06 /* Build configuration list for PBXProject "Pinterest_Irene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B585F9291E89FFDC00ADFB06 /* Debug */,
+				B585F92A1E89FFDC00ADFB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B585F92B1E89FFDC00ADFB06 /* Build configuration list for PBXNativeTarget "Pinterest_Irene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B585F92C1E89FFDC00ADFB06 /* Debug */,
+				B585F92D1E89FFDC00ADFB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B585F9111E89FFDC00ADFB06 /* Project object */;
+}
